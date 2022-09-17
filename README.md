@@ -1,2 +1,1 @@
-# hhr
-Write a Python program to view some basic statistical details like percentile, mean, std etc.
+import pandas as pd data = pd.read_csv("iris.csv") print(data.describe())
